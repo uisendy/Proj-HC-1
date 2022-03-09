@@ -18,17 +18,13 @@
 .container{
     padding: 32px 0 32px;
     background-color: var(--backgoundColor);
-    width: 90%;
     overflow: hidden;
-    min-width: 100vh;
-    margin: 0 auto;
 }
 
 .section-container{
-    max-width: 100rem;
-    width: 90%;
-    margin: 20px auto 0;
-    padding: 0 8rem;
+    width: 100%;
+    margin: auto;
+    padding: 20px 8rem;
     z-index: 10;
 }
 
@@ -69,9 +65,14 @@ header h3{
     
 }
 
+
 #nav-bar a{
     color: var(--navColor);
     margin-left: 3rem;
+}
+
+#nav-bar a:hover{
+    color: red;
 }
 
 
@@ -138,7 +139,8 @@ a{
     flex-direction: row;
     justify-content: space-between;
     text-align: center ;
-    margin: 100px 0;
+    background-color: rgb(227, 255, 254);
+    padding: 10rem;
 }
 #products img{
     width: 400px;
@@ -149,8 +151,8 @@ a{
 #contact{
     text-align: center;
     align-content: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 #contact #submit{
     margin-bottom: 10px;
@@ -162,4 +164,15 @@ footer{
     text-align: center;
 }
 
-}
+@media screen and (min-width: 480px) {
+    #about{
+        text-align: center;
+        margin-top: 100px;
+        display: inline-block;
+        align-items: center;
+    }
+
+    #about .left-con{
+        padding-bottom: 30px;
+    }
+  }
