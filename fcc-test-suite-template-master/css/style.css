@@ -132,5 +132,33 @@ a{
     font-size: 40px;
 }
 
+#products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center ;
+    margin: 100px 0;
+}
+#products img{
+    width: 400px;
+    height: 250px;
 
+}
 
+#contact{
+    text-align: center;
+    align-content: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#contact #submit{
+    margin-bottom: 10px;
+}
+footer{
+    background-color: gainsboro;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+}
