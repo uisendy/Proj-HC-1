@@ -65,24 +65,31 @@
 
     <section id="contact">
       <h1>Contact US</h1>
-      <form action="">
-       <label for="Name">Name: </label><br>
-       <input type="text" id="Name" name="Name">
+      <p>Kindly contact to get notification for a new house or other assistance</p>
+      <form id="form" action="">
+       <label for="Name" class="name">Name: </label><br>
+       <input type="text" id="Name" name="Name" placeholder="Name"><br>
 
-       <label for="Email">email</label><br>
-       <input type="Email" id="Email" name="Email" ><br>
+       <label for="Email" class="email">email</label><br>
+       <input type="Email" id="email" name="Email" placeholder="Email"><br>
+
+       <label for="Message" class="message">Your Message</label><br>
+       <textarea name="Message" id="Message" maxlength="1000" rows="10" cols="30" placeholder="Your Message"></textarea>
+
+       <input type="button" id="submit" value="Submit" onclick="location.href='https://www.freecodecamp.com/email-submit'">
+
       </form>
       
     </section>
 
+    <footer>
+      <h2>Follow US on Github</h2>
+      <a href="">https://github.com/uisendy/Proj-HC-1</a>
+      <p>Designed by Abdullah and Sendy for Microverse Challenge</p>
+    </footer>
     
   </div>
     
-
-
-
-
-
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
