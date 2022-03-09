@@ -4,91 +4,109 @@
     <meta charset="UTF-8">
     <title>AbdSen Properties</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
   </head>
 
   <body>
-
-  <div class="container">
-    <header id="header">
-      <div class="img-con">
-        <a href="#home">
-          <img id="header-img" src="/fcc-test-suite-template-master/images/Logo.PNG" alt="Logo">
-        </a>
-      </div>
-      
-      <nav id="nav-bar">
-        <ul>
-          <li class="nav-link"><a href="#home">Home</a></li>
-          <li class="nav-link"><a href="#about">About</a></li>
-          <li class="nav-link"><a href="#products">Products</a></li>
-          <li class="nav-link"><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-
-    </header>
-
-    <section id="home">
-      <h1> Welcome to your dream House</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nostrum, similique quaerat pariatur aliquid ea.</p>
-      <a href="#">Find Houses</a> 
-    </section>
-
-    <section id="about">
-      <h1>About Us</h1>
-      <div class="left-con">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptas corrupti nisi libero sint sunt consequatur inventore recusandae nostrum natus dolorem a dignissimos eos delectus, qui fugit error totam iste!
-        </p>
-
-      </div>
-      <div class="right-con">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/WDQ0cPwHYDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-
-    </section>
-
-    <section id="products">
-      <div class="product1">
-        <img src="/fcc-test-suite-template-master/images/product1.jpeg" alt="product-1">>
-        <h3>Beautiful House For Sale in Algeria</h3>
-        <h3>$100,000,000</h3>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ipsum! </p>
-      </div>
-
-      <div class="product2">
-        <img src="/fcc-test-suite-template-master/images/product 2.jpg" alt="product-2">
-        <h3> Beautiful House for Sale in Nigeria</h3>
-        <h3>$150,000,000</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, illo!</p>
-
-      </div>
-    </section>
-
-    <section id="contact">
-      <h1>Contact US</h1>
-      <p>Kindly contact to get notification for a new house or other assistance</p>
-      <form id="form" action="">
-       <label for="Name" class="name">Name: </label><br>
-       <input type="text" id="Name" name="Name" placeholder="Name"><br>
-
-       <label for="Email" class="email">email</label><br>
-       <input type="Email" id="email" name="Email" placeholder="Email"><br>
-
-       <label for="Message" class="message">Your Message</label><br>
-       <textarea name="Message" id="Message" maxlength="1000" rows="10" cols="30" placeholder="Your Message"></textarea>
-
-       <input type="button" id="submit" value="Submit" onclick="location.href='https://www.freecodecamp.com/email-submit'">
-
-      </form>
-      
-    </section>
-
-    <footer>
-      <h2>Follow US on Github</h2>
-      <a href="">https://github.com/uisendy/Proj-HC-1</a>
-      <p>Designed by Abdullah and Sendy for Microverse Challenge</p>
-    </footer>
     
-  </div>
+    <div class="container">
+      <header id="header">
+        <div class="section-container">
+          <div class="logo">
+            <a href="#home">
+              <img id="header-img" src="/fcc-test-suite-template-master/images/Logo.PNG" alt="Logo">
+              
+            </a>
+            <h3>AbdSen</h3>
+          </div>
+          
+          <nav id="nav-bar">
+            <ul>
+              <li class="nav-link"><a href="#home">Home</a></li>
+              <li class="nav-link"><a href="#about">About</a></li>
+              <li class="nav-link"><a href="#products">Products</a></li>
+              <li class="nav-link"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </header>
+
+      
+
+      <section id="home" class="section-container">
+        <div class="leftcon">
+          <h1> Welcome to your dream House</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nostrum, similique quaerat pariatur aliquid ea.</p>
+          <a href="#" class="btn">Find Houses</a> 
+        </div>
+        <div class="rightcon">
+          <img src="/fcc-test-suite-template-master/images/House.jpg" alt="">
+        </div>
+      </section>
+
+      <section id="about" class="section-container">
+        
+        <div class="left-con">
+          <h1>About Us</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptas corrupti nisi libero sint sunt consequatur inventore recusandae nostrum natus dolorem a dignissimos eos delectus, qui fugit error totam iste!
+          </p>
+
+        </div>
+        <div class="right-con">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WDQ0cPwHYDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+      </section>
+
+      <!-- working stage now -->
+      <section id="products" class="section-container">
+        <div class="product1">
+          <img src="/fcc-test-suite-template-master/images/product1.jpeg" alt="product-1">>
+          <h3>Beautiful House For Sale in Algeria</h3>
+          <h3>$100,000,000</h3>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ipsum! </p>
+        </div>
+
+        <div class="product2">
+          <img src="/fcc-test-suite-template-master/images/product 2.jpg" alt="product-2">
+          <h3> Beautiful House for Sale in Nigeria</h3>
+          <h3>$150,000,000</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, illo!</p>
+
+        </div>
+      </section>
+
+      <section id="contact" class="section-container">
+        <h1>Contact US</h1>
+        <p>Kindly contact to get notification for a new house or other assistance</p>
+        <form id="form" action="">
+        <label for="Name" class="name">Name: </label><br>
+        <input type="text" id="Name" name="Name" placeholder="Name"><br>
+
+        <label for="Email" class="email">email</label><br>
+        <input type="Email" id="email" name="Email" placeholder="Email"><br>
+
+        <label for="Message" class="message">Your Message</label><br>
+        <textarea name="Message" id="Message" maxlength="1000" rows="10" cols="30" placeholder="Your Message"></textarea>
+
+        <input type="button" id="submit" value="Submit" class="btn" onclick="location.href='https://www.freecodecamp.com/email-submit'">
+
+        </form>
+        
+      </section>
+
+      <footer class="section-container">
+        <h2>Follow US on Github</h2>
+        <a href="">https://github.com/uisendy/Proj-HC-1</a>
+        <p>Designed by Abdullah and Sendy for Microverse Challenge</p>
+      </footer>
+      
+    </div>
     
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

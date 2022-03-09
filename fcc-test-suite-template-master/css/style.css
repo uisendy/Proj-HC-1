@@ -1,0 +1,136 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --backgoundColor: rgb(255, 255, 255);
+    --secTextColor: rgb(65, 64, 64);
+    --priTextColor: rgb(24, 23, 23);
+    --hoverColor: rgb(10, 134, 103);
+    --navColor: rgb(3, 49, 38);
+
+}
+
+.container{
+    padding: 32px 0 32px;
+    background-color: var(--backgoundColor);
+    width: 90%;
+    overflow: hidden;
+    min-width: 100vh;
+    margin: 0 auto;
+}
+
+.section-container{
+    max-width: 100rem;
+    width: 90%;
+    margin: 20px auto 0;
+    padding: 0 8rem;
+    z-index: 10;
+}
+
+img{
+  width: 100%;  
+}
+
+header img{
+    width: 50px;
+}
+
+header .section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header h3{
+    color: var(--navColor);
+    font-size: 30;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    
+}
+
+#nav-bar a{
+    color: var(--navColor);
+    margin-left: 3rem;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+#home{
+    margin-top: 70px;
+    /* display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+
+#home img{
+    padding: 10px;
+}
+
+#home h1{
+    font-size: 30px
+}
+
+#home p{
+    font-size: medium;
+    font-style: italic;
+    color: var(--secTextColor);
+    line-height: 1.5;
+    margin: 1.7rem 0 ;
+}
+
+.btn{
+    background-color: var(--secTextColor);
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    margin-top: 1rem
+}
+
+
+/* working stage now */
+
+#about{
+    text-align: center;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#about .left-con h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+
+
